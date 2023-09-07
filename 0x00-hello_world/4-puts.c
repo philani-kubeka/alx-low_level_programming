@@ -1,13 +1,11 @@
 #include <stdio.h>
 
  /**
-  * main - Entry point
+  * main - print the string in puts function
   *
-  * Description: main
-  *
-  * this programme prints Programming is like building a multiligual puzzle
-  *
-  * Return: Always 0
+  * Description: using main function
+  * this programme prints "Programming is like building a multiligual puzzle
+  * Return: 0
   */
 int main(void)
 {
