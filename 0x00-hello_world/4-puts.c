@@ -1,8 +1,13 @@
 #include <stdio.h>
 
+ /**
+  * Description: main
+  * this programme prints Programming is like building a multiligual puzzle
+  * Return: 0
+  */
 int main(void)
 {
-	/*main - prints '"'Programming is like building a multiligual puzzle followed by return (0)*/
+	/*main*/
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
