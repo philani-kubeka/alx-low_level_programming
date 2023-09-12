@@ -8,7 +8,7 @@
 */
 void print_times_table(int n)
 {
-	int num1, multiple, productuct;
+	int num1, multiple, product;
 
 	if (n >= 0 && n <= 15)
 	{
