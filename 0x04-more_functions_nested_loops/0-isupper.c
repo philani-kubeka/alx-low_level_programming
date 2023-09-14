@@ -7,22 +7,8 @@
 */
 int _isupper(int c)
 {
-	char i;
-	int upper;
-
-	for (i = 'A'; i <= 'Z'; i++)
-	{
-		if (i == c)
-		{
-			upper = 1;
-			break;
-		}
-		else
-		{
-			upper = 0;
-			break;
-		}
-	}
-
-	return (upper);
+	if (c >= 'A' && c <= 'Z')
+		return (1);
+	else
+		return (0);
 }
