@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - check the code
- * @n input value
+ * @n: input value
  *
  * Return: Always 0.
  */
