@@ -20,9 +20,13 @@ ar -t libmy.a
 3-strspn.o
 4-isalpha.o
 4-strpbrk.o
-5-strstr.o6-abs.o
+5-strstr.o
 6-abs.o
 9-strcpy.o
 \_putchar.o
 
-ranlib libmy.a 
+ranlib libmy.a
+
+creat a main.c file
+
+gcc main.c -L. -lmy -o quote
