@@ -29,7 +29,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	if (new_dog == NULL)
 		return (NULL);
 
-	cpname = malloc(name_len + 1);
+	cpname = malloc(sizeof(char) * (name_len + 1));
 
 	if (cpname == NULL)
 		return (NULL);
@@ -37,7 +37,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		cpname[i] = name[i];
 	cpname[i] = '\0';
 
-	cpowner = malloc(owner_len + 1);
+	cpowner = malloc(sizeof(char) * (owner_len + 1));
 
 	if (cpowner == NULL)
 		return (NULL);
