@@ -11,15 +11,13 @@
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-	unsigned int flips = 0;
-	unsigned long int exc_or = (n ^ m);
-	unsigned long int max = 0x01;
+	unsigned long int flips = 0;
+	unsigned long int exc_or = n ^ m;
 
-	while (max <= exc_or)
+	while (exc_or > 0)
 	{
-		if (max & exc_or)
-			flips++;
-		max <<= 1;
+		flips += (exc_or & 1);
+		exc_or >>= 1;
 	}
 	return (flips);
 }
